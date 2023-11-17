@@ -1,8 +1,19 @@
 ## `data`
-This directory houses all small (< 100 MB) data sets that are a result of individual experiments and/or simulations. Depending on the type of data collected, you may want to split them up based on file type. Data larger than 
-100 MB can be stored using [Git LFS](https://git-lfs.github.com/), though I personally try to avoid saving large files under version control and have them 
-redundantly backed up elsewhere.
+This folder houses the raw and clean data from both, the historical (2013) and current (2022) elevational data on amphibians. 
 
-If possible, data sets from individual experiments should be compiled in a long-form tidy format. This is important not only for your analysis, but for others who wish to reproduce your work. While you may have an intimate knowledge of your data and experimental structure, it may not be obvious to anyone else. It is much easier if you can combine the individual data sets into as few files as possible so only one or two files have to be read to perform the analysis and generate the figures. 
+- *Study site* : The study was carried out in the reserve of the Manu Learning Centre research station (71°23ʹ28.06”W; 12°47ʹ21.849”S, 460 m asl), located in the Manu Biosphere Reserve (southeast Peru). The altitudinal gradient is situated in the Piñi-Piñi mountain range. It covers a straight-line distance of 4 km that spans from the lowest areas next to the bank of the Alto Madre de Dios River (~450 m asl) to the peaks of the range (~1200 m asl). 
 
-This is **not** a place to store all of your large (> 1000 MB) data files, such as images. For accessibility of these large data sets, there are myriad online data repositories such as [Zenodo](https://zenodo.org) which provide free storage and DOI generation. In addition, you should have all of your data backed up locally with redundancy.
+- *
+
+
+## Historical data
+- This data is coming from Villacampa et al. (2019) https://doi.org/10.1080/23766808.2019.1659022
+
+- Data collection was carried out during a three-month period in the 2013 dry season, from mid-June to mid-September. Four altitudinal bands were defined: 450–550, 650–750, 850–950 and 1050–1150 m asl, and ten 100 m long linear transects were marked in each band, giving a total of 40 transect sampling locations
+
+
+## Current data
+- This data is part of the first chapter for my PhD and was collected from mid-June to mid-September 2022. We replicated the study following the same methodology and using the same transect locations from the historical study
+
+
+
